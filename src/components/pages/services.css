@@ -1,0 +1,46 @@
+.wrapper i{
+    font-size: 79px;
+}
+.wrapper{
+    display: flex ;
+    justify-content:space-evenly;
+}
+.wrapper div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    margin-top: 16px;
+    text-align: center;
+    width: 120px;
+    box-sizing: border-box;
+   border-radius: 2px;
+    box-shadow: rgb(41, 46, 46);
+}
+.main{
+    background-color: cornsilk;
+}
+.card-img-top{
+    height: fit-content;
+}
+.card{
+    height: 580px;
+    margin: 40px;
+}
+@media only screen and (max-width: 1024px) {
+    .cards__items{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+.cards__items{
+height: 700px;
+}
+.cards__items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
